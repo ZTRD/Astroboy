@@ -12,11 +12,13 @@ public class Luna {
   }
   //(obj.getHour()<10) ? "0"+obj.getHour() : obj.getHour() <- Ternary Operator
   
-  /* public String LessThan(int time)
-  	 {
-  	   return (time<10) ? "0"+time : time;
-  	 }
-	*/
+  /* 
+  public String LessThan(int time)
+ 	{
+  	return (time<10) ? "0"+time : time;
+  	}
+  */
+	
   // return "The time is currently "+LessThan(obj.getHour())+":"+LessThan(obj.getMinute())+":"+LessThan(obj.getSecond());
   
 	public static void main (String[] args){
